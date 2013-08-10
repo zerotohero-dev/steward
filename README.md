@@ -9,3 +9,5 @@ watchdog continuously watches your desktop and mails you if anything changes on 
 Currently works on macs only. 
 
 If you have time to fork it and update it for your favorite OS, I'd love to have your help!
+
+//TODO: update and finalize this README.
