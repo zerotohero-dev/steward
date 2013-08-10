@@ -1,0 +1,32 @@
+{
+    "name": "watchdog",
+    "version": "0.0.1",
+    "author": "Volkan Özçelik <volkan@o2js.com>",
+    "description": "A service to continuously watch your computer's desktop and warn you if anything changes on the screen.",
+    "contributors": [],
+    "scripts": {
+        "test": "echo No tests so far."
+    },
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nodejitsu/http-server.git"
+    },
+    "keywords": [
+        "watcher",
+        "screen capture",
+        "snapshot",
+        "capture",
+        "screen",
+        "service",
+        "security",
+        "watchdog"
+    ],
+    "dependencies" : {
+    },
+    "devDependencies": {
+    },
+    "bundledDependencies": [
+    ],
+    "license": "MIT"
+}
