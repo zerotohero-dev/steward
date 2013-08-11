@@ -1,7 +1,9 @@
 'use strict';
 
 var capture = require('./service/capture').snapshot;
-var inform = require('./service/mail').send;
+//todo pass this as a continuation.
+//var inform = require('./service/mail').send;
+var compare = require('./service/compare').compareSync;
 
 var config = require('./config').config;
 var kSnapshotCount = config.app.SNAPSHOT_COUNT;
@@ -14,14 +16,13 @@ function executeAfterSnapshot() {
     if(counter > kSnapshotCount) {
         counter = 0;
 
-        // compute diff sync
+        compare(loop);
 
         return;
     }
 
     loop();
 }
-
 
 function loop() {
     clearTimeout(timerId);
