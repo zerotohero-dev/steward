@@ -1,6 +1,6 @@
 {
   "name": "steward",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Volkan Özçelik <volkan@o2js.com>",
   "description": "A service to continuously watch your computer's desktop and warn you if anything changes on the screen.",
   "contributors": [],

@@ -1,11 +1,11 @@
 'use strict';
 
-var capture = require('./service/capture').snapshot;
+var capture = require('./lib/service/capture').snapshot;
 //todo pass this as a continuation.
-//var inform = require('./service/mail').send;
-var compare = require('./service/compare').compareSync;
+//var inform = require('./lib/service/mail').send;
+var compare = require('./lib/service/compare').compareSync;
+var config = require('./lib/config').config;
 
-var config = require('./config').config;
 var kSnapshotCount = config.app.SNAPSHOT_COUNT;
 var kCaptureInterval = config.app.CAPTURE_INTERVAL;
 
