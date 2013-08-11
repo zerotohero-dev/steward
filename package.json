@@ -1,6 +1,6 @@
 {
   "name": "steward",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "author": "Volkan Özçelik <volkan@o2js.com>",
   "description": "A service to continuously watch your computer's desktop and warn you if anything changes on the screen.",
   "contributors": [],
@@ -10,7 +10,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/http-server.git"
+    "url": "https://github.com/v0lkan/steward.git"
   },
   "keywords": [
     "watcher",
